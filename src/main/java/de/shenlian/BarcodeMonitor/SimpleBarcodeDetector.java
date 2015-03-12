@@ -47,7 +47,7 @@ public class SimpleBarcodeDetector {
         while (canvasFrame.isVisible() && (frame = grabber.grab()) != null) {
             cvClearMemStorage(storage);
 
-            cvSmooth(frame, frame, CV_GAUSSIAN, 9, 9, 2, 2);
+//            cvSmooth(frame, frame, CV_GAUSSIAN, 9, 9, 2, 2);
             if (image == null) {
                 image = IplImage.create(frame.width(), frame.height(), IPL_DEPTH_8U, 1);
                 cvCvtColor(frame, image, CV_RGB2GRAY);
