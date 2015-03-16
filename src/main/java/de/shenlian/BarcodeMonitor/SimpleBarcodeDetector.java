@@ -1,22 +1,33 @@
-/* 
- * Barcode detector based on ZXING and JAVACV
+/*
+ * Copyright 2015 shenlian.de
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
  */
+
+/*
+ * Please write me an E-mail(opensource@shenlian.de), if you are using this project
+ * Thanks!
+ */
+
  
 package de.shenlian.BarcodeMonitor;
 
 import com.google.zxing.*;
-import com.google.zxing.client.j2se.*;
-import com.google.zxing.common.*;
+import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
+import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.multi.GenericMultipleBarcodeReader;
 import java.awt.image.BufferedImage;
-import org.bytedeco.javacpp.Loader;
 import static org.bytedeco.javacpp.opencv_core.*;
-import org.bytedeco.javacpp.opencv_core.CvContour;
-import org.bytedeco.javacpp.opencv_core.CvMemStorage;
-import org.bytedeco.javacpp.opencv_core.CvPoint;
-import org.bytedeco.javacpp.opencv_core.CvSeq;
-import org.bytedeco.javacpp.opencv_core.IplImage;
-import static org.bytedeco.javacpp.opencv_imgproc.*;
 import org.bytedeco.javacv.*;
 
 /**
@@ -31,47 +42,18 @@ public class SimpleBarcodeDetector {
         grabber.start();
 
         IplImage frame = grabber.grab();
-        IplImage image = null;
-        IplImage prevImage = null;
-        IplImage diff = null;
 
-        CanvasFrame canvasFrame = new CanvasFrame("Some Title");
+        CanvasFrame canvasFrame = new CanvasFrame("Barcode Monitor");
         canvasFrame.setCanvasSize(frame.width(), frame.height());
-                
-        CvMemStorage storage = CvMemStorage.create();
-        
+
         BufferedImage bufferedImage;
         
         String lastText = ""; 
 
         while (canvasFrame.isVisible() && (frame = grabber.grab()) != null) {
-            cvClearMemStorage(storage);
-
-//            cvSmooth(frame, frame, CV_GAUSSIAN, 9, 9, 2, 2);
-            if (image == null) {
-                image = IplImage.create(frame.width(), frame.height(), IPL_DEPTH_8U, 1);
-                cvCvtColor(frame, image, CV_RGB2GRAY);
-            } else {
-                prevImage = IplImage.create(frame.width(), frame.height(), IPL_DEPTH_8U, 1);
-                prevImage = image;
-                image = IplImage.create(frame.width(), frame.height(), IPL_DEPTH_8U, 1);
-                cvCvtColor(frame, image, CV_RGB2GRAY);
-            }
-
-            if (diff == null) {
-                diff = IplImage.create(frame.width(), frame.height(), IPL_DEPTH_8U, 1);
-            }
-
-            if (prevImage != null) {
-                // perform ABS difference
-                cvAbsDiff(image, prevImage, diff);
-                // do some threshold for wipe away useless details
-                cvThreshold(diff, diff, 64, 255, CV_THRESH_BINARY);
-                           
-                bufferedImage = image.getBufferedImage();
-//                File file = new File("D:\\JavaProjects\\200px-Wikipedia_mobile_en.svg.png");
-//                bufferedImage = ImageIO.read(file);
-                             
+              
+                bufferedImage = frame.getBufferedImage();
+                      
                 LuminanceSource source = new BufferedImageLuminanceSource(bufferedImage);
                 BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
                 GenericMultipleBarcodeReader barcodeReader = new GenericMultipleBarcodeReader(new MultiFormatReader());
@@ -86,17 +68,10 @@ public class SimpleBarcodeDetector {
                         cvCircle(frame, ptPoit, 5, cvScalar(0, 255, 0, 0), 2, 4, 0);
                       }
                     }
-                } catch (NotFoundException e) {
-                  // e.printStackTrace();
-                }
-//                cvPutText(frame, lastText, cvPoint(0,frame.height()-20), cvFont(FONT_HERSHEY_PLAIN), cvScalar(0,255,0,0));
-                // canvasFrame.showImage(diff);
+                } catch (NotFoundException e) {/* cannot find or decode */}
+                cvPutText(frame, lastText, cvPoint(0,frame.height()-20), cvFont(FONT_HERSHEY_PLAIN), cvScalar(0,255,0,0));
                 canvasFrame.showImage(frame);                
 
-                // recognize contours
-                CvSeq contour = new CvSeq(null);
-                cvFindContours(diff, storage, contour, Loader.sizeof(CvContour.class), CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
-            }
         }
         grabber.stop();
         canvasFrame.dispose();
