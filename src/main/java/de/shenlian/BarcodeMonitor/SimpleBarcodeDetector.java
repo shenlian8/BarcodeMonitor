@@ -27,7 +27,10 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.multi.*;
 import java.awt.image.BufferedImage;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import static org.bytedeco.javacpp.opencv_core.*;
+import org.bytedeco.javacpp.opencv_highgui;
 import org.bytedeco.javacv.*;
 
 /**
@@ -49,6 +52,7 @@ public class SimpleBarcodeDetector {
         BufferedImage bufferedImage;
         
         String lastText = ""; 
+        int index = 0;
 
         while (canvasFrame.isVisible() && (frame = grabber.grab()) != null) {
               
@@ -73,6 +77,8 @@ public class SimpleBarcodeDetector {
                     }
                 } catch (NotFoundException e) {/* cannot find or decode */}
                 cvPutText(frame, lastText, cvPoint(0,frame.height()-20), cvFont(FONT_HERSHEY_PLAIN), cvScalar(0,255,0,0));
+                index ++;
+                opencv_highgui.cvSaveImage("C:\\frames\\"  + String.format("%06d", index) + ".jpg", frame);
                 canvasFrame.showImage(frame);                
 
         }
