@@ -38,7 +38,7 @@ import org.bytedeco.javacv.*;
  */
 public class SimpleBarcodeDetector {
     public static void main(String[] args) throws Exception {
-        OpenCVFrameGrabber grabber = new OpenCVFrameGrabber(1);
+        OpenCVFrameGrabber grabber = new OpenCVFrameGrabber(0);
         grabber.start();
 
         IplImage frame = grabber.grab();
@@ -63,8 +63,9 @@ public class SimpleBarcodeDetector {
                 try {
                     results = barcodeReader.decodeMultiple(bitmap);
                     // setting results.
+                    lastText = "";
                     for (Result oneResult : results) {
-                      lastText = oneResult.getText();
+                      lastText += oneResult.getText();
                       for (ResultPoint resultPoint : oneResult.getResultPoints()) {
                         CvPoint ptPoit = cvPoint((int) resultPoint.getX(), (int) resultPoint.getY());
                         cvCircle(frame, ptPoit, 5, cvScalar(0, 255, 0, 0), 2, 4, 0);
