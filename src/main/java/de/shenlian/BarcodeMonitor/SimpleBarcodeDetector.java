@@ -25,7 +25,7 @@ package de.shenlian.BarcodeMonitor;
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.common.HybridBinarizer;
-import com.google.zxing.multi.GenericMultipleBarcodeReader;
+import com.google.zxing.multi.*;
 import java.awt.image.BufferedImage;
 import static org.bytedeco.javacpp.opencv_core.*;
 import org.bytedeco.javacv.*;
@@ -38,7 +38,7 @@ import org.bytedeco.javacv.*;
  */
 public class SimpleBarcodeDetector {
     public static void main(String[] args) throws Exception {
-        OpenCVFrameGrabber grabber = new OpenCVFrameGrabber(0);
+        OpenCVFrameGrabber grabber = new OpenCVFrameGrabber(1);
         grabber.start();
 
         IplImage frame = grabber.grab();
@@ -56,7 +56,9 @@ public class SimpleBarcodeDetector {
                       
                 LuminanceSource source = new BufferedImageLuminanceSource(bufferedImage);
                 BinaryBitmap bitmap = new BinaryBitmap(new HybridBinarizer(source));
-                GenericMultipleBarcodeReader barcodeReader = new GenericMultipleBarcodeReader(new MultiFormatReader());
+                GenericMultipleBarcodeReader barcodeReader = new 
+                        GenericMultipleBarcodeReader(new ByQuadrantReader(new 
+                        MultiFormatReader()));
                 Result[] results;
                 try {
                     results = barcodeReader.decodeMultiple(bitmap);
