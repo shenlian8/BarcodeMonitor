@@ -27,8 +27,6 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.multi.*;
 import java.awt.image.BufferedImage;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import static org.bytedeco.javacpp.opencv_core.*;
 import org.bytedeco.javacpp.opencv_highgui;
 import org.bytedeco.javacv.*;
