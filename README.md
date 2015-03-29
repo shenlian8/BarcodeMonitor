@@ -5,3 +5,5 @@ This project shows how to use ZXING and JavaCV to read more barcodes from a webc
 ![barcode2](https://cloud.githubusercontent.com/assets/9590431/6869086/93c14460-d491-11e4-9f1e-e2a42f35cf78.gif)
 
 The handy is only used to show the barcodes. The computer reads and decodes the barcodes in the picture.
+
+A exe for windows can be found under launch4j folder.
