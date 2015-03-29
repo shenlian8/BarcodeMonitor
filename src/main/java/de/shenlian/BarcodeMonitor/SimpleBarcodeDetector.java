@@ -28,7 +28,7 @@ import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.multi.*;
 import java.awt.image.BufferedImage;
 import static org.bytedeco.javacpp.opencv_core.*;
-import org.bytedeco.javacpp.opencv_highgui;
+//import org.bytedeco.javacpp.opencv_highgui;
 import org.bytedeco.javacv.*;
 
 /**
@@ -67,7 +67,7 @@ public class SimpleBarcodeDetector {
                     // setting results.
                     lastText = "";
                     for (Result oneResult : results) {
-                      lastText += oneResult.getText();
+                      lastText += (" :: " + oneResult.getText());
                       for (ResultPoint resultPoint : oneResult.getResultPoints()) {
                         CvPoint ptPoit = cvPoint((int) resultPoint.getX(), (int) resultPoint.getY());
                         cvCircle(frame, ptPoit, 5, cvScalar(0, 255, 0, 0), 2, 4, 0);
@@ -76,7 +76,7 @@ public class SimpleBarcodeDetector {
                 } catch (NotFoundException e) {/* cannot find or decode */}
                 cvPutText(frame, lastText, cvPoint(0,frame.height()-20), cvFont(FONT_HERSHEY_PLAIN), cvScalar(0,255,0,0));
                 index ++;
-                opencv_highgui.cvSaveImage("C:\\frames\\"  + String.format("%06d", index) + ".jpg", frame);
+//                opencv_highgui.cvSaveImage("C:\\frames\\"  + String.format("%06d", index) + ".jpg", frame);
                 canvasFrame.showImage(frame);                
 
         }

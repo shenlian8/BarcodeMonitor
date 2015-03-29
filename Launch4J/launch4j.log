@@ -1,0 +1,300 @@
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
+
+
+Version:	3.7
+CmdLine:	C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Software\BarcodeMonitor\Launch4J\.
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+32-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_25
+Check launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe (OK)
+Match:		1.8.0_25
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.8
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_25
+Ignore:		1.8.0_25
+Runtime used:	1.8.0_25 (32-bit)
+Launcher:	C:\Program Files (x86)\Java\jre1.8.0_25\bin\javaw.exe
+Launcher args:	-jar "C:\Software\BarcodeMonitor\Launch4J\BarcodeMonitor.exe"
+Args length:	61/32768 chars
+Exit code:	0
