@@ -28,7 +28,6 @@ import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.multi.*;
 import java.awt.image.BufferedImage;
 import static org.bytedeco.javacpp.opencv_core.*;
-//import org.bytedeco.javacpp.opencv_highgui;
 import org.bytedeco.javacv.*;
 
 /**
